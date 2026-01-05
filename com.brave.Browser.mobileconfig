@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures Brave group policy for debloating</string>
+            <key>PayloadDisplayName</key>
+            <string>Brave    Policies</string>
+            <key>PayloadIdentifier</key>
+            <string>com.brave.Browser</string>
+            <key>PayloadOrganization</key>
+            <string></string>
+            <key>PayloadType</key>
+            <string>com.brave.browser</string>
+            <key>PayloadUUID</key>
+            <string>8db21467-9146-4f0d-9b4a-fd4dac5a0fa0</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>BraveRewardsDisabled</key>
+            <true/>
+            <key>BraveWalletDisabled</key>
+            <true/>
+            <key>BraveVPNDisabled</key>
+            <true/>
+            <key>BraveAIChatEnabled</key>
+            <false/>
+            <key>TorDisabled</key>
+            <true/>
+            <key>PasswordManagerEnabled</key>
+            <false/>
+            <key>DnsOverHttpsMode</key>
+            <string>automatic</string>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Removes unnecessary bloat from Brave Browser</string>
+    <key>PayloadDisplayName</key>
+    <string>Brave Browser Debloatinator</string>
+    <key>PayloadIdentifier</key>
+    <string>com.MulesGaming.BraveDebloatinator</string>
+    <key>PayloadOrganization</key>
+    <string>MulesGaming</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>96e98690-137e-46e3-9fac-c821e30de527</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
